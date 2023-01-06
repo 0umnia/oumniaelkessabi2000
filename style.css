@@ -1,0 +1,484 @@
+
+
+body{
+    font-family:
+    padding:0;
+    margin:0;
+    color:white;
+}
+
+#imageprincipal{
+    padding-top:60px;
+    background:url(imggfinal.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+   
+}
+ul{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style-type:none;
+}
+h2{
+    text-transform:uppercase;
+    text-align:center;
+    padding-top: 30px;
+    font-size:medium;
+}
+h1{
+    text-align:center;
+    color:plum;
+    size: 45%;
+
+}
+p{
+    text-align:center;
+    color:blueviolet;
+    text-size-adjust: 35px;
+
+}
+a{
+    
+
+}
+
+#deuxièmetrait{
+    height:1px;
+    width:25%;
+    margin:-3px auto;
+    background-color: black;
+}
+
+#premiertrait{
+    height:1px;
+    width:25%;
+    margin:-3px auto;
+    background-color: black;
+}
+
+.form{
+    align-content: center;
+}
+/* *******NAVBAR****** */
+ .menubar{
+     background-color: rgb(1, 1, 19);
+     text-align: center;
+     height:80px;
+     width:99%;
+     display:flex;
+     align-items:center;
+     justify-content: space-between;
+     padding: 0 2%;
+      
+    }
+.logo {
+    color:white;
+    font-size: 35px;
+
+}
+.logo span{
+    color:rgb(12, 85, 241);
+}
+.menubar ul{
+    list-style:none;
+    display:flex;
+}
+.menubar ul li{
+    
+    padding:10px 30px;
+    position:relative;
+}
+
+.menubar li a{
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    transition:all 0.3s;
+    
+}
+.menubar ul li a:hover{
+    color:turquoise;
+}
+.dropdownmenu{ 
+    display:none;
+}
+.menubar ul li:hover .dropdownmenu{
+    display:block;
+    position:absolute;
+    left:0;
+    top:100%;
+    background-color:rgb(1, 1, 19) ;
+}
+.dropdownmenu ul{
+    display:block;
+    margin:10px;
+}
+.dropdownmenu ul li{
+    width:150px;
+    padding:10px;
+
+}
+.dropdownmenuu{ 
+    display:none;
+}
+
+.menubar ul li:hover .dropdownmenuu{
+    display:block;
+    position:absolute;
+    left:0;
+    top:100%;
+    background-color:rgb(1, 1, 19) ;
+}
+.dropdownmenuu ul{
+    display:block;
+    margin:10px;
+}
+.dropdownmenuu ul li{
+    width:150px;
+    padding:10px;
+
+}
+.dropdownmenuuu{ 
+    display:none;
+}
+.menubar ul li:hover .dropdownmenuuu{
+    display:block;
+    position:absolute;
+    left:0;
+    top:100%;
+    background-color:rgb(1, 1, 19) ;
+}
+
+.dropdownmenuuu ul{
+    display:block;
+    margin:10px;
+}
+.dropdownmenuuu ul li{
+    width:150px;
+    padding:10px;
+
+}
+.fas{
+    float:right;
+    margin-left:10 px;
+    padding-top:3px;
+}
+
+.dropdownmenu1{
+    display:none;
+}
+.dropdownmenu ul li:hover .dropdownmenu1{
+    display:block;
+    position:absolute;
+    top: 2px;;
+    left:150px;
+    background-color:rgb(1, 1, 19);
+
+}
+.dropdownmenu2{
+    display:none;
+}
+.dropdownmenu ul li:hover .dropdownmenu2{
+    display:block;
+    position:absolute;
+    top: 2px;;
+    left:150px;
+    background-color:rgb(1, 1, 19);
+
+}
+.dropdownmenu3{
+    display:none;
+}
+.dropdownmenuu ul li:hover .dropdownmenu3{
+    display:block;
+    position:absolute;
+    top: 2px;;
+    left:150px;
+    background-color:rgb(1, 1, 19);
+}
+.dropdownmenu4{
+    display:none;
+    color:white;
+}
+.dropdownmenuu ul li:hover .dropdownmenu4{
+    display:block;
+    position:absolute;
+    top: 2px;;
+    left:150px;
+    background-color:rgb(1, 1, 19);
+
+}
+.dropdownmenu5{
+    display:none;
+    color:white;
+}
+.dropdownmenuuu ul li:hover .dropdownmenu5{
+    display:block;
+    position:absolute;
+    top: 2px;;
+    left:150px;
+    background-color:rgb(1, 1, 19);
+}
+.dropdownmenu6{
+    display:none;
+    color:white
+}
+.dropdownmenuuu ul li:hover .dropdownmenu6{
+    display:block;
+    position:absolute;
+    top: 2px;;
+    left:150px;
+    background-color:rgb(1, 1, 19);
+}
+.dropdownmenu11{
+    display:none;
+}
+.dropdownmenu1 ul li:hover .dropdownmenu11{
+    display:block;
+    position:absolute;
+    top: 2px;;
+    left:150px;
+    color:white;
+    background-color:rgb(1, 1, 19) ;
+}
+    .dropdownmenu12{
+        display:none;
+    }
+    .dropdownmenu1 ul li:hover .dropdownmenu12{
+        display:block;
+        position:absolute;
+        top: 2px;;
+        left:150px;
+        background-color:rgb(1, 1, 19) ;
+        color:white;
+    } 
+    .dropdownmenu13{
+        display:none;
+    }
+    .dropdownmenu1 ul li:hover .dropdownmenu13{
+        display:block;
+        position:absolute;
+        top: 2px;;
+        left:150px;
+        color:white;
+        background-color: rgb(1, 1, 19);
+    } 
+    .dropdownmenu14{
+        display:none;
+    }
+    .dropdownmenu1 ul li:hover .dropdownmenu14{
+        display:block;
+        position:absolute;
+        top: 2px;;
+        left:150px;
+        color:white;
+        background-color:rgb(1, 1, 19) ;
+    } 
+    .dropdownmenu15{
+        display:none;
+    }
+    .dropdownmenu1 ul li:hover .dropdownmenu15{
+        display:block;
+        position:absolute;
+        top: 2px;;
+        left:150px;
+        color:white;
+        background-color:rgb(1, 1, 19) ;
+    } 
+    
+    .dropdownmenu21{
+        display:none;
+    }
+    .dropdownmenu2 ul li:hover .dropdownmenu21{
+        display:block;
+        position:absolute;
+        top: 2px;;
+        left:150px;
+        color:white;
+        background-color:rgb(1, 1, 19) ;
+    } 
+    .dropdownmenu22{
+        display:none;
+    }
+    .dropdownmenu2 ul li:hover .dropdownmenu22{
+        display:block;
+        position:absolute;
+        top: 2px;;
+        left:150px;
+        color:white;
+        background-color:rgb(1, 1, 19) ;
+    } 
+    .dropdownmenu23{
+        display:none;
+    }
+    .dropdownmenu2 ul li:hover .dropdownmenu23{
+        display:block;
+        position:absolute;
+        top: 2px;;
+        left:150px;
+        color:white;
+        background-color:rgb(1, 1, 19) ;
+    } 
+    .dropdownmenu24{
+        display:none;
+    }
+    .dropdownmenu2 ul li:hover .dropdownmenu24{
+        display:block;
+        position:absolute;
+        top: 2px;;
+        left:150px;
+        color:white;
+        background-color:rgb(1, 1, 19) ;
+    } 
+    .dropdownmenu25{
+        display:none;
+    }
+    .dropdownmenu2 ul li:hover .dropdownmenu25{
+        display:block;
+        position:absolute;
+        top: 2px;;
+        left:150px;
+        color:white;
+        background-color:rgb(1, 1, 19) ;
+    } 
+    .dropdownmenu26{
+        display:none;
+    }
+    .dropdownmenu2 ul li:hover .dropdownmenu26{
+        display:block;
+        position:absolute;
+        top: 2px;;
+        left:150px;
+        color:white;
+        background-color:rgb(1, 1, 19) ;
+    } 
+    .dropdownmenu31{
+        display:none;
+    }
+    .dropdownmenu3 ul li:hover .dropdownmenu31{
+        display:block;
+        position:absolute;
+        top: 2px;;
+        left:150px;
+        color:white;
+        background-color:rgb(1, 1, 19) ;
+    } 
+    .dropdownmenu32{
+        display:none;
+    }
+    .dropdownmenu3 ul li:hover .dropdownmenu32{
+        display:block;
+        position:absolute;
+        top: 2px;;
+        left:150px;
+        color:white;
+        background-color:rgb(1, 1, 19) ;
+    } 
+    .dropdownmenu33{
+        display:none;
+    }
+    .dropdownmenu3 ul li:hover .dropdownmenu33{
+        display:block;
+        position:absolute;
+        top: 2px;;
+        left:150px;
+        color:white;
+        background-color:rgb(1, 1, 19) ;
+    } 
+    .dropdownmenu34{
+        display:none;
+    }
+    .dropdownmenu3 ul li:hover .dropdownmenu34{
+        display:block;
+        position:absolute;
+        top: 2px;;
+        left:150px;
+        color:white;
+        background-color:rgb(1, 1, 19) ;
+    } 
+    .dropdownmenu35{
+        display:none;
+    }
+    .dropdownmenu3 ul li:hover .dropdownmenu35{
+        display:block;
+        position:absolute;
+        top: 2px;;
+        left:150px;
+        color:white;
+        background-color:rgb(1, 1, 19) ;
+    } 
+    .dropdownmenu36{
+        display:none;
+    }
+    .dropdownmenu3 ul li:hover .dropdownmenu36{
+        display:block;
+        position:absolute;
+        top: 2px;;
+        left:150px;
+        color:white;
+        background-color:rgb(1, 1, 19) ;
+    } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ****** FOOTER******* */
+footer{
+    color:black;
+    padding:20px 0 10px 0;
+    text-align:center;
+}
+ form{
+     margin:0 auto;
+     max: width 500px;0px;
+}
+input, textarea,button{
+    border:none;
+    width:55%;
+    padding:15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    border-radius:8px;
+}
+textarea{
+    height: 200px;
+}
+button{
+    font-size:1.5em;
+    background-color:blanchedalmond;
+}
+button:hover{
+    background-color: chocolate;
+    color:blanchedalmond;
+}
+#deuxièmetrait{
+        height:1px;
+        width:6.
+        5%;
+        margin:60px auto;
+        background-color: black;
+    }
